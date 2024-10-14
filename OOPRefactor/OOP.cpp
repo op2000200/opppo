@@ -874,6 +874,7 @@ void showAllGroupped()
 	}
 	std::cout << "Video:\n" << table[0] << "\n\n";
 
+	delete table;
 	table = new tabulate::Table;
 	tabulate::RowStream headerAudio;
 	lineBuffer = fileVector[0].audioFile.getHeader();
@@ -899,6 +900,7 @@ void showAllGroupped()
 	}
 	std::cout << "Audio:\n" << table[0] << "\n\n";
 
+	delete table;
 	table = new tabulate::Table;
 	tabulate::RowStream headerImage;
 	lineBuffer = fileVector[0].image.getHeader();
@@ -926,5 +928,6 @@ void showAllGroupped()
 
 	std::string iDontHowTODoThisWithoutAnotherStringVar;
 	std::cin >> iDontHowTODoThisWithoutAnotherStringVar;
+	delete table;
 	return;
 }
