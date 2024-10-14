@@ -83,6 +83,7 @@ int VideoFile::getFPS()
 std::vector<std::string> VideoFile::getData()
 {
 	std::vector<std::string> result;
+	result.reserve(5);
 	result.push_back(name);
 	result.push_back(lastChangeTime);
 	result.push_back(std::to_string(resolution.x));
@@ -94,6 +95,7 @@ std::vector<std::string> VideoFile::getData()
 std::vector<std::string> VideoFile::getHeader()
 {
 	std::vector<std::string> result;
+	result.reserve(5);
 	result.push_back("Name");
 	result.push_back("LastChangeTime");
 	result.push_back("Resolution.x");
@@ -135,6 +137,7 @@ int AudioFile::getLength()
 std::vector<std::string> AudioFile::getData()
 {
 	std::vector<std::string> result;
+	result.reserve(4);
 	result.push_back(name);
 	result.push_back(lastChangeTime);
 	result.push_back(std::to_string(bitrate));
@@ -145,6 +148,7 @@ std::vector<std::string> AudioFile::getData()
 std::vector<std::string> AudioFile::getHeader()
 {
 	std::vector<std::string> result;
+	result.reserve(4);
 	result.push_back("Name");
 	result.push_back("LastChangeTime");
 	result.push_back("Bitrate");
@@ -186,6 +190,7 @@ ImageType Image::getImageType()
 std::vector<std::string> Image::getData()
 {
 	std::vector<std::string> result;
+	result.reserve(5);
 	result.push_back(name);
 	result.push_back(lastChangeTime);
 	result.push_back(std::to_string(resolution.x));
@@ -221,6 +226,7 @@ std::vector<std::string> Image::getData()
 std::vector<std::string> Image::getHeader()
 {
 	std::vector<std::string> result;
+	result.reserve(5);
 	result.push_back("Name");
 	result.push_back("LastChangeTime");
 	result.push_back("Resolution.x");
