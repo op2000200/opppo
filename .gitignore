@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/OOP/.vscode
+/OOP/.PVS-Studio
+/OOP/build
+/OOPRefactor/.vscode
+/OOPRefactor/build
