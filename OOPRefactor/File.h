@@ -28,9 +28,9 @@ public:
 	File();
 	~File() = default;
 
-	void setName(std::string in);
+	void setName(const std::string &in);
 	std::string getName();
-	void setLCT(std::string in);
+	void setLCT(const std::string &in);
 	std::string getLCT();
 	virtual std::vector<std::string> getData();
 	virtual std::vector<std::string> getHeader();

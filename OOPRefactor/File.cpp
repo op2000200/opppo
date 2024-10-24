@@ -9,7 +9,7 @@ File::File()
 	lastChangeTime = "00.00.0000/00:00";
 }
 
-void File::setName(std::string in)
+void File::setName(const std::string &in)
 {
 	name = in;
 }
@@ -19,7 +19,7 @@ std::string File::getName()
 	return name;
 }
 
-void File::setLCT(std::string in)
+void File::setLCT(const std::string &in)
 {
 	lastChangeTime = in;
 }
