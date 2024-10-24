@@ -5235,30 +5235,6 @@
       "id": 181
     },
     {
-      "code": "V832",
-      "falseAlarm": false,
-      "level": 2,
-      "message": "It's better to use '= default;' syntax instead of empty destructor body.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 12,
-          "endLine": 12,
-          "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
-          "navigation": {
-            "currentLine": 419421,
-            "previousLine": 0,
-            "nextLine": 123,
-            "columns": 0
-          }
-        }
-      ],
-      "favorite": false,
-      "projects": [],
-      "id": 182
-    },
-    {
       "code": "V813",
       "falseAlarm": false,
       "level": 2,
@@ -5267,8 +5243,8 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 16,
-          "endLine": 16,
+          "line": 12,
+          "endLine": 12,
           "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
           "navigation": {
             "currentLine": -1867169791,
@@ -5280,7 +5256,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 183
+      "id": 182
     },
     {
       "code": "V820",
@@ -5291,8 +5267,8 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 18,
-          "endLine": 18,
+          "line": 14,
+          "endLine": 14,
           "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
           "navigation": {
             "currentLine": 9243,
@@ -5304,7 +5280,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 184
+      "id": 183
     },
     {
       "code": "V813",
@@ -5315,8 +5291,8 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 26,
-          "endLine": 26,
+          "line": 22,
+          "endLine": 22,
           "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
           "navigation": {
             "currentLine": 1215938621,
@@ -5328,7 +5304,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 185
+      "id": 184
     },
     {
       "code": "V820",
@@ -5339,8 +5315,8 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 28,
-          "endLine": 28,
+          "line": 24,
+          "endLine": 24,
           "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
           "navigation": {
             "currentLine": 9519131,
@@ -5352,24 +5328,48 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 186
+      "id": 185
     },
     {
-      "code": "V832",
+      "code": "V823",
       "falseAlarm": false,
       "level": 2,
-      "message": "It's better to use '= default;' syntax instead of empty destructor body.",
+      "message": "Decreased performance. Object may be created in-place in the 'result' container. Consider replacing methods: 'push_back' -> 'emplace_back'.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 59,
-          "endLine": 59,
+          "line": 81,
+          "endLine": 81,
           "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
           "navigation": {
-            "currentLine": 481860509,
-            "previousLine": 0,
-            "nextLine": 123,
+            "currentLine": 1140557097,
+            "previousLine": -2128719854,
+            "nextLine": 1140557089,
+            "columns": 0
+          }
+        }
+      ],
+      "favorite": false,
+      "projects": [],
+      "id": 186
+    },
+    {
+      "code": "V823",
+      "falseAlarm": false,
+      "level": 2,
+      "message": "Decreased performance. Object may be created in-place in the 'result' container. Consider replacing methods: 'push_back' -> 'emplace_back'.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 82,
+          "endLine": 82,
+          "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
+          "navigation": {
+            "currentLine": 1140557089,
+            "previousLine": 1140557097,
+            "nextLine": 535483279,
             "columns": 0
           }
         }
@@ -5387,13 +5387,13 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 89,
-          "endLine": 89,
+          "line": 83,
+          "endLine": 83,
           "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
           "navigation": {
-            "currentLine": 1140557097,
-            "previousLine": -2128719854,
-            "nextLine": 1140557089,
+            "currentLine": 535483279,
+            "previousLine": 1140557089,
+            "nextLine": 352987,
             "columns": 0
           }
         }
@@ -5411,13 +5411,13 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 90,
-          "endLine": 90,
+          "line": 131,
+          "endLine": 131,
           "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
           "navigation": {
-            "currentLine": 1140557089,
-            "previousLine": 1140557097,
-            "nextLine": 535483279,
+            "currentLine": 572519431,
+            "previousLine": -2128719854,
+            "nextLine": 286258860,
             "columns": 0
           }
         }
@@ -5435,12 +5435,12 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 91,
-          "endLine": 91,
+          "line": 132,
+          "endLine": 132,
           "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
           "navigation": {
-            "currentLine": 535483279,
-            "previousLine": 1140557089,
+            "currentLine": 286258860,
+            "previousLine": 572519431,
             "nextLine": 352987,
             "columns": 0
           }
@@ -5451,21 +5451,21 @@
       "id": 190
     },
     {
-      "code": "V832",
+      "code": "V823",
       "falseAlarm": false,
       "level": 2,
-      "message": "It's better to use '= default;' syntax instead of empty destructor body.",
+      "message": "Decreased performance. Object may be created in-place in the 'result' container. Consider replacing methods: 'push_back' -> 'emplace_back'.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 113,
-          "endLine": 113,
+          "line": 180,
+          "endLine": 180,
           "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
           "navigation": {
-            "currentLine": 446232989,
-            "previousLine": 0,
-            "nextLine": 123,
+            "currentLine": 1140557097,
+            "previousLine": -2128719854,
+            "nextLine": 1140557089,
             "columns": 0
           }
         }
@@ -5483,104 +5483,8 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 143,
-          "endLine": 143,
-          "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
-          "navigation": {
-            "currentLine": 572519431,
-            "previousLine": -2128719854,
-            "nextLine": 286258860,
-            "columns": 0
-          }
-        }
-      ],
-      "favorite": false,
-      "projects": [],
-      "id": 192
-    },
-    {
-      "code": "V823",
-      "falseAlarm": false,
-      "level": 2,
-      "message": "Decreased performance. Object may be created in-place in the 'result' container. Consider replacing methods: 'push_back' -> 'emplace_back'.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 144,
-          "endLine": 144,
-          "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
-          "navigation": {
-            "currentLine": 286258860,
-            "previousLine": 572519431,
-            "nextLine": 352987,
-            "columns": 0
-          }
-        }
-      ],
-      "favorite": false,
-      "projects": [],
-      "id": 193
-    },
-    {
-      "code": "V832",
-      "falseAlarm": false,
-      "level": 2,
-      "message": "It's better to use '= default;' syntax instead of empty destructor body.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 166,
-          "endLine": 166,
-          "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
-          "navigation": {
-            "currentLine": 1783333,
-            "previousLine": 0,
-            "nextLine": 123,
-            "columns": 0
-          }
-        }
-      ],
-      "favorite": false,
-      "projects": [],
-      "id": 194
-    },
-    {
-      "code": "V823",
-      "falseAlarm": false,
-      "level": 2,
-      "message": "Decreased performance. Object may be created in-place in the 'result' container. Consider replacing methods: 'push_back' -> 'emplace_back'.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 196,
-          "endLine": 196,
-          "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
-          "navigation": {
-            "currentLine": 1140557097,
-            "previousLine": -2128719854,
-            "nextLine": 1140557089,
-            "columns": 0
-          }
-        }
-      ],
-      "favorite": false,
-      "projects": [],
-      "id": 195
-    },
-    {
-      "code": "V823",
-      "falseAlarm": false,
-      "level": 2,
-      "message": "Decreased performance. Object may be created in-place in the 'result' container. Consider replacing methods: 'push_back' -> 'emplace_back'.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 197,
-          "endLine": 197,
+          "line": 181,
+          "endLine": 181,
           "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
           "navigation": {
             "currentLine": 1140557089,
@@ -5592,7 +5496,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 196
+      "id": 192
     },
     {
       "code": "V2522",
@@ -5603,8 +5507,8 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 220,
-          "endLine": 220,
+          "line": 204,
+          "endLine": 204,
           "file": "C:\\code\\opppo\\OOPRefactor\\File.cpp",
           "navigation": {
             "currentLine": 9050,
@@ -5617,7 +5521,7 @@
       "sastId": "MISRA-CPP-6-4-6",
       "favorite": false,
       "projects": [],
-      "id": 197
+      "id": 193
     },
     {
       "analyzedSourceFiles": [
@@ -5645,7 +5549,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 198
+      "id": 194
     },
     {
       "analyzedSourceFiles": [
@@ -5673,7 +5577,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 199
+      "id": 195
     },
     {
       "analyzedSourceFiles": [
@@ -5701,7 +5605,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 200
+      "id": 196
     },
     {
       "analyzedSourceFiles": [
@@ -5729,7 +5633,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 201
+      "id": 197
     },
     {
       "analyzedSourceFiles": [
@@ -5757,7 +5661,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 202
+      "id": 198
     },
     {
       "analyzedSourceFiles": [
@@ -5785,7 +5689,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 203
+      "id": 199
     },
     {
       "code": "V2509",
@@ -5810,7 +5714,7 @@
       "sastId": "MISRA-CPP-18-0-3",
       "favorite": false,
       "projects": [],
-      "id": 204
+      "id": 200
     },
     {
       "code": "V2578",
@@ -5835,7 +5739,7 @@
       "sastId": "MISRA-CPP-5-2-12",
       "favorite": false,
       "projects": [],
-      "id": 205
+      "id": 201
     },
     {
       "code": "V2547",
@@ -5860,7 +5764,7 @@
       "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
-      "id": 206
+      "id": 202
     },
     {
       "code": "V2506",
@@ -5899,7 +5803,7 @@
       "sastId": "MISRA-CPP-6-6-5",
       "favorite": false,
       "projects": [],
-      "id": 207
+      "id": 203
     },
     {
       "code": "V1048",
@@ -5924,7 +5828,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 208
+      "id": 204
     },
     {
       "code": "V1048",
@@ -5949,7 +5853,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 209
+      "id": 205
     },
     {
       "code": "V1048",
@@ -5974,7 +5878,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 210
+      "id": 206
     },
     {
       "code": "V1048",
@@ -5999,7 +5903,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 211
+      "id": 207
     },
     {
       "code": "V1048",
@@ -6024,7 +5928,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 212
+      "id": 208
     },
     {
       "code": "V1048",
@@ -6049,7 +5953,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 213
+      "id": 209
     },
     {
       "code": "V1048",
@@ -6074,7 +5978,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 214
+      "id": 210
     },
     {
       "code": "V1048",
@@ -6099,7 +6003,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 215
+      "id": 211
     },
     {
       "code": "V1048",
@@ -6124,7 +6028,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 216
+      "id": 212
     },
     {
       "code": "V1048",
@@ -6149,7 +6053,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 217
+      "id": 213
     },
     {
       "code": "V1048",
@@ -6174,7 +6078,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 218
+      "id": 214
     },
     {
       "code": "V1048",
@@ -6199,7 +6103,7 @@
       ],
       "favorite": false,
       "projects": [],
-      "id": 219
+      "id": 215
     },
     {
       "code": "V2509",
@@ -6222,46 +6126,146 @@
         }
       ],
       "sastId": "MISRA-CPP-18-0-3",
+      "favorite": false,
+      "projects": [],
+      "id": 216
+    },
+    {
+      "code": "V2578",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 244,
+          "endLine": 244,
+          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
+          "navigation": {
+            "currentLine": 723545,
+            "previousLine": 125,
+            "nextLine": 23343895,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-5-2-12",
+      "favorite": false,
+      "projects": [],
+      "id": 217
+    },
+    {
+      "code": "V2547",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The return value of non-void function 'system' should be used.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 244,
+          "endLine": 244,
+          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
+          "navigation": {
+            "currentLine": 723545,
+            "previousLine": 125,
+            "nextLine": 23343895,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-0-1-7",
+      "favorite": false,
+      "projects": [],
+      "id": 218
+    },
+    {
+      "code": "V2509",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The function with the 'system' name should not be used.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 514,
+          "endLine": 514,
+          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
+          "navigation": {
+            "currentLine": 723545,
+            "previousLine": 709801862,
+            "nextLine": 5607,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-18-0-3",
+      "favorite": false,
+      "projects": [],
+      "id": 219
+    },
+    {
+      "code": "V2578",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 514,
+          "endLine": 514,
+          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
+          "navigation": {
+            "currentLine": 723545,
+            "previousLine": 709801862,
+            "nextLine": 5607,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-5-2-12",
       "favorite": false,
       "projects": [],
       "id": 220
     },
     {
-      "code": "V2578",
+      "code": "V2547",
       "falseAlarm": false,
       "level": 1,
-      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
+      "message": "The return value of non-void function 'system' should be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 244,
-          "endLine": 244,
+          "line": 514,
+          "endLine": 514,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 125,
-            "nextLine": 23343895,
+            "previousLine": 709801862,
+            "nextLine": 5607,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-5-2-12",
+      "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
       "id": 221
     },
     {
-      "code": "V2547",
+      "code": "V2509",
       "falseAlarm": false,
       "level": 1,
-      "message": "The return value of non-void function 'system' should be used.",
+      "message": "The function with the 'system' name should not be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 244,
-          "endLine": 244,
+          "line": 545,
+          "endLine": 545,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
@@ -6271,235 +6275,135 @@
           }
         }
       ],
-      "sastId": "MISRA-CPP-0-1-7",
+      "sastId": "MISRA-CPP-18-0-3",
       "favorite": false,
       "projects": [],
       "id": 222
     },
     {
-      "code": "V2509",
+      "code": "V2578",
       "falseAlarm": false,
       "level": 1,
-      "message": "The function with the 'system' name should not be used.",
+      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 514,
-          "endLine": 514,
+          "line": 545,
+          "endLine": 545,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 709801862,
-            "nextLine": 5607,
+            "previousLine": 125,
+            "nextLine": 23343895,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-18-0-3",
+      "sastId": "MISRA-CPP-5-2-12",
       "favorite": false,
       "projects": [],
       "id": 223
     },
     {
-      "code": "V2578",
+      "code": "V2547",
       "falseAlarm": false,
       "level": 1,
-      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
+      "message": "The return value of non-void function 'system' should be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 514,
-          "endLine": 514,
+          "line": 545,
+          "endLine": 545,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 709801862,
-            "nextLine": 5607,
+            "previousLine": 125,
+            "nextLine": 23343895,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-5-2-12",
+      "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
       "id": 224
     },
     {
-      "code": "V2547",
+      "code": "V2509",
       "falseAlarm": false,
       "level": 1,
-      "message": "The return value of non-void function 'system' should be used.",
+      "message": "The function with the 'system' name should not be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 514,
-          "endLine": 514,
+          "line": 584,
+          "endLine": 584,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 709801862,
-            "nextLine": 5607,
+            "previousLine": 123,
+            "nextLine": -1810443192,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-0-1-7",
+      "sastId": "MISRA-CPP-18-0-3",
       "favorite": false,
       "projects": [],
       "id": 225
     },
     {
-      "code": "V2509",
+      "code": "V2578",
       "falseAlarm": false,
       "level": 1,
-      "message": "The function with the 'system' name should not be used.",
+      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 545,
-          "endLine": 545,
+          "line": 584,
+          "endLine": 584,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 125,
-            "nextLine": 23343895,
+            "previousLine": 123,
+            "nextLine": -1810443192,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-18-0-3",
+      "sastId": "MISRA-CPP-5-2-12",
       "favorite": false,
       "projects": [],
       "id": 226
     },
     {
-      "code": "V2578",
+      "code": "V2547",
       "falseAlarm": false,
       "level": 1,
-      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
+      "message": "The return value of non-void function 'system' should be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 545,
-          "endLine": 545,
+          "line": 584,
+          "endLine": 584,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 125,
-            "nextLine": 23343895,
+            "previousLine": 123,
+            "nextLine": -1810443192,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-5-2-12",
+      "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
       "id": 227
-    },
-    {
-      "code": "V2547",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The return value of non-void function 'system' should be used.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 545,
-          "endLine": 545,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
-          "navigation": {
-            "currentLine": 723545,
-            "previousLine": 125,
-            "nextLine": 23343895,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-0-1-7",
-      "favorite": false,
-      "projects": [],
-      "id": 228
-    },
-    {
-      "code": "V2509",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The function with the 'system' name should not be used.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 584,
-          "endLine": 584,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
-          "navigation": {
-            "currentLine": 723545,
-            "previousLine": 123,
-            "nextLine": -1810443192,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-18-0-3",
-      "favorite": false,
-      "projects": [],
-      "id": 229
-    },
-    {
-      "code": "V2578",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 584,
-          "endLine": 584,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
-          "navigation": {
-            "currentLine": 723545,
-            "previousLine": 123,
-            "nextLine": -1810443192,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-5-2-12",
-      "favorite": false,
-      "projects": [],
-      "id": 230
-    },
-    {
-      "code": "V2547",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The return value of non-void function 'system' should be used.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 584,
-          "endLine": 584,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
-          "navigation": {
-            "currentLine": 723545,
-            "previousLine": 123,
-            "nextLine": -1810443192,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-0-1-7",
-      "favorite": false,
-      "projects": [],
-      "id": 231
     },
     {
       "code": "V2547",
@@ -6524,7 +6428,7 @@
       "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
-      "id": 232
+      "id": 228
     },
     {
       "code": "V2547",
@@ -6549,7 +6453,7 @@
       "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
-      "id": 233
+      "id": 229
     },
     {
       "code": "V2547",
@@ -6574,7 +6478,7 @@
       "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
-      "id": 234
+      "id": 230
     },
     {
       "code": "V2522",
@@ -6599,7 +6503,7 @@
       "sastId": "MISRA-CPP-6-4-6",
       "favorite": false,
       "projects": [],
-      "id": 235
+      "id": 231
     },
     {
       "code": "V2509",
@@ -6624,7 +6528,7 @@
       "sastId": "MISRA-CPP-18-0-3",
       "favorite": false,
       "projects": [],
-      "id": 236
+      "id": 232
     },
     {
       "code": "V2578",
@@ -6649,7 +6553,7 @@
       "sastId": "MISRA-CPP-5-2-12",
       "favorite": false,
       "projects": [],
-      "id": 237
+      "id": 233
     },
     {
       "code": "V2547",
@@ -6674,7 +6578,7 @@
       "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
-      "id": 238
+      "id": 234
     },
     {
       "code": "V2547",
@@ -6699,7 +6603,7 @@
       "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
-      "id": 239
+      "id": 235
     },
     {
       "code": "V2509",
@@ -6722,46 +6626,146 @@
         }
       ],
       "sastId": "MISRA-CPP-18-0-3",
+      "favorite": false,
+      "projects": [],
+      "id": 236
+    },
+    {
+      "code": "V2578",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 671,
+          "endLine": 671,
+          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
+          "navigation": {
+            "currentLine": 723545,
+            "previousLine": 709801862,
+            "nextLine": 5607,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-5-2-12",
+      "favorite": false,
+      "projects": [],
+      "id": 237
+    },
+    {
+      "code": "V2547",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The return value of non-void function 'system' should be used.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 671,
+          "endLine": 671,
+          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
+          "navigation": {
+            "currentLine": 723545,
+            "previousLine": 709801862,
+            "nextLine": 5607,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-0-1-7",
+      "favorite": false,
+      "projects": [],
+      "id": 238
+    },
+    {
+      "code": "V2509",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The function with the 'system' name should not be used.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 677,
+          "endLine": 677,
+          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
+          "navigation": {
+            "currentLine": 723545,
+            "previousLine": 123,
+            "nextLine": 750061478,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-18-0-3",
+      "favorite": false,
+      "projects": [],
+      "id": 239
+    },
+    {
+      "code": "V2578",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 677,
+          "endLine": 677,
+          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
+          "navigation": {
+            "currentLine": 723545,
+            "previousLine": 123,
+            "nextLine": 750061478,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-5-2-12",
       "favorite": false,
       "projects": [],
       "id": 240
     },
     {
-      "code": "V2578",
+      "code": "V2547",
       "falseAlarm": false,
       "level": 1,
-      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
+      "message": "The return value of non-void function 'system' should be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 671,
-          "endLine": 671,
+          "line": 677,
+          "endLine": 677,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 709801862,
-            "nextLine": 5607,
+            "previousLine": 123,
+            "nextLine": 750061478,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-5-2-12",
+      "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
       "id": 241
     },
     {
-      "code": "V2547",
+      "code": "V2509",
       "falseAlarm": false,
       "level": 1,
-      "message": "The return value of non-void function 'system' should be used.",
+      "message": "The function with the 'system' name should not be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 671,
-          "endLine": 671,
+          "line": 700,
+          "endLine": 700,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
@@ -6771,72 +6775,72 @@
           }
         }
       ],
-      "sastId": "MISRA-CPP-0-1-7",
+      "sastId": "MISRA-CPP-18-0-3",
       "favorite": false,
       "projects": [],
       "id": 242
     },
     {
-      "code": "V2509",
+      "code": "V2578",
       "falseAlarm": false,
       "level": 1,
-      "message": "The function with the 'system' name should not be used.",
+      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 677,
-          "endLine": 677,
+          "line": 700,
+          "endLine": 700,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 123,
-            "nextLine": 750061478,
+            "previousLine": 709801862,
+            "nextLine": 5607,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-18-0-3",
+      "sastId": "MISRA-CPP-5-2-12",
       "favorite": false,
       "projects": [],
       "id": 243
     },
     {
-      "code": "V2578",
+      "code": "V2547",
       "falseAlarm": false,
       "level": 1,
-      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
+      "message": "The return value of non-void function 'system' should be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 677,
-          "endLine": 677,
+          "line": 700,
+          "endLine": 700,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 123,
-            "nextLine": 750061478,
+            "previousLine": 709801862,
+            "nextLine": 5607,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-5-2-12",
+      "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
       "id": 244
     },
     {
-      "code": "V2547",
+      "code": "V2509",
       "falseAlarm": false,
       "level": 1,
-      "message": "The return value of non-void function 'system' should be used.",
+      "message": "The function with the 'system' name should not be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 677,
-          "endLine": 677,
+          "line": 706,
+          "endLine": 706,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
@@ -6846,310 +6850,210 @@
           }
         }
       ],
-      "sastId": "MISRA-CPP-0-1-7",
+      "sastId": "MISRA-CPP-18-0-3",
       "favorite": false,
       "projects": [],
       "id": 245
     },
     {
-      "code": "V2509",
+      "code": "V2578",
       "falseAlarm": false,
       "level": 1,
-      "message": "The function with the 'system' name should not be used.",
+      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 700,
-          "endLine": 700,
+          "line": 706,
+          "endLine": 706,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 709801862,
-            "nextLine": 5607,
+            "previousLine": 123,
+            "nextLine": 750061478,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-18-0-3",
+      "sastId": "MISRA-CPP-5-2-12",
       "favorite": false,
       "projects": [],
       "id": 246
     },
     {
-      "code": "V2578",
+      "code": "V2547",
       "falseAlarm": false,
       "level": 1,
-      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
+      "message": "The return value of non-void function 'system' should be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 700,
-          "endLine": 700,
+          "line": 706,
+          "endLine": 706,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 709801862,
-            "nextLine": 5607,
+            "previousLine": 123,
+            "nextLine": 750061478,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-5-2-12",
+      "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
       "id": 247
     },
     {
-      "code": "V2547",
+      "code": "V2509",
       "falseAlarm": false,
       "level": 1,
-      "message": "The return value of non-void function 'system' should be used.",
+      "message": "The function with the 'system' name should not be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 700,
-          "endLine": 700,
+          "line": 760,
+          "endLine": 760,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 709801862,
-            "nextLine": 5607,
+            "previousLine": 125,
+            "nextLine": 23343895,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-0-1-7",
+      "sastId": "MISRA-CPP-18-0-3",
       "favorite": false,
       "projects": [],
       "id": 248
     },
     {
-      "code": "V2509",
+      "code": "V2578",
       "falseAlarm": false,
       "level": 1,
-      "message": "The function with the 'system' name should not be used.",
+      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 706,
-          "endLine": 706,
+          "line": 760,
+          "endLine": 760,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 123,
-            "nextLine": 750061478,
+            "previousLine": 125,
+            "nextLine": 23343895,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-18-0-3",
+      "sastId": "MISRA-CPP-5-2-12",
       "favorite": false,
       "projects": [],
       "id": 249
     },
     {
-      "code": "V2578",
+      "code": "V2547",
       "falseAlarm": false,
       "level": 1,
-      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
+      "message": "The return value of non-void function 'system' should be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 706,
-          "endLine": 706,
+          "line": 760,
+          "endLine": 760,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 123,
-            "nextLine": 750061478,
+            "previousLine": 125,
+            "nextLine": 23343895,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-5-2-12",
+      "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
       "id": 250
     },
     {
-      "code": "V2547",
+      "code": "V2509",
       "falseAlarm": false,
       "level": 1,
-      "message": "The return value of non-void function 'system' should be used.",
+      "message": "The function with the 'system' name should not be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 706,
-          "endLine": 706,
+          "line": 785,
+          "endLine": 785,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
-            "previousLine": 123,
-            "nextLine": 750061478,
+            "previousLine": 125,
+            "nextLine": 5607,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-0-1-7",
+      "sastId": "MISRA-CPP-18-0-3",
       "favorite": false,
       "projects": [],
       "id": 251
     },
     {
-      "code": "V2509",
+      "code": "V2578",
       "falseAlarm": false,
       "level": 1,
-      "message": "The function with the 'system' name should not be used.",
+      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 760,
-          "endLine": 760,
+          "line": 785,
+          "endLine": 785,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
             "previousLine": 125,
-            "nextLine": 23343895,
+            "nextLine": 5607,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-18-0-3",
+      "sastId": "MISRA-CPP-5-2-12",
       "favorite": false,
       "projects": [],
       "id": 252
     },
     {
-      "code": "V2578",
+      "code": "V2547",
       "falseAlarm": false,
       "level": 1,
-      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
+      "message": "The return value of non-void function 'system' should be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 760,
-          "endLine": 760,
+          "line": 785,
+          "endLine": 785,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 723545,
             "previousLine": 125,
-            "nextLine": 23343895,
+            "nextLine": 5607,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-5-2-12",
+      "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
       "id": 253
-    },
-    {
-      "code": "V2547",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The return value of non-void function 'system' should be used.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 760,
-          "endLine": 760,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
-          "navigation": {
-            "currentLine": 723545,
-            "previousLine": 125,
-            "nextLine": 23343895,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-0-1-7",
-      "favorite": false,
-      "projects": [],
-      "id": 254
-    },
-    {
-      "code": "V2509",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The function with the 'system' name should not be used.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 785,
-          "endLine": 785,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
-          "navigation": {
-            "currentLine": 723545,
-            "previousLine": 125,
-            "nextLine": 5607,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-18-0-3",
-      "favorite": false,
-      "projects": [],
-      "id": 255
-    },
-    {
-      "code": "V2578",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The string literal should not decay to a pointer to char. Consider inspecting the first function argument.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 785,
-          "endLine": 785,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
-          "navigation": {
-            "currentLine": 723545,
-            "previousLine": 125,
-            "nextLine": 5607,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-5-2-12",
-      "favorite": false,
-      "projects": [],
-      "id": 256
-    },
-    {
-      "code": "V2547",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The return value of non-void function 'system' should be used.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 785,
-          "endLine": 785,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
-          "navigation": {
-            "currentLine": 723545,
-            "previousLine": 125,
-            "nextLine": 5607,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-0-1-7",
-      "favorite": false,
-      "projects": [],
-      "id": 257
     },
     {
       "code": "V2015",
@@ -7181,7 +7085,7 @@
       "sastId": "CERT-DCL01-C",
       "favorite": false,
       "projects": [],
-      "id": 258
+      "id": 254
     },
     {
       "code": "V2547",
@@ -7206,7 +7110,7 @@
       "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
-      "id": 259
+      "id": 255
     },
     {
       "code": "V2015",
@@ -7238,7 +7142,7 @@
       "sastId": "CERT-DCL01-C",
       "favorite": false,
       "projects": [],
-      "id": 260
+      "id": 256
     },
     {
       "code": "V2547",
@@ -7263,7 +7167,7 @@
       "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
-      "id": 261
+      "id": 257
     },
     {
       "code": "V2015",
@@ -7295,7 +7199,7 @@
       "sastId": "CERT-DCL01-C",
       "favorite": false,
       "projects": [],
-      "id": 262
+      "id": 258
     },
     {
       "code": "V2547",
@@ -7320,7 +7224,7 @@
       "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
-      "id": 263
+      "id": 259
     },
     {
       "code": "V2522",
@@ -7345,7 +7249,7 @@
       "sastId": "MISRA-CPP-6-4-6",
       "favorite": false,
       "projects": [],
-      "id": 264
+      "id": 260
     },
     {
       "code": "V2511",
@@ -7370,7 +7274,7 @@
       "sastId": "MISRA-CPP-18-4-1",
       "favorite": false,
       "projects": [],
-      "id": 265
+      "id": 261
     },
     {
       "code": "V2547",
@@ -7395,7 +7299,7 @@
       "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
-      "id": 266
+      "id": 262
     },
     {
       "code": "V2015",
@@ -7427,7 +7331,7 @@
       "sastId": "CERT-DCL01-C",
       "favorite": false,
       "projects": [],
-      "id": 267
+      "id": 263
     },
     {
       "code": "V2547",
@@ -7452,7 +7356,7 @@
       "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
-      "id": 268
+      "id": 264
     },
     {
       "code": "V2563",
@@ -7477,7 +7381,32 @@
       "sastId": "MISRA-CPP-5-0-15",
       "favorite": false,
       "projects": [],
-      "id": 269
+      "id": 265
+    },
+    {
+      "code": "V2511",
+      "falseAlarm": false,
+      "level": 2,
+      "message": "The 'delete' operator should not be used.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 877,
+          "endLine": 877,
+          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
+          "navigation": {
+            "currentLine": 139393,
+            "previousLine": 0,
+            "nextLine": 1461068865,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-18-4-1",
+      "favorite": false,
+      "projects": [],
+      "id": 266
     },
     {
       "code": "V2511",
@@ -7488,12 +7417,12 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 877,
-          "endLine": 877,
+          "line": 878,
+          "endLine": 878,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 1461068865,
-            "previousLine": 0,
+            "previousLine": 139393,
             "nextLine": -1841372924,
             "columns": 0
           }
@@ -7502,40 +7431,7 @@
       "sastId": "MISRA-CPP-18-4-1",
       "favorite": false,
       "projects": [],
-      "id": 270
-    },
-    {
-      "code": "V773",
-      "cwe": 401,
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The 'table' pointer was assigned values twice without releasing the memory. A memory leak is possible.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 877,
-          "endLine": 877,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
-          "navigation": {
-            "currentLine": 1461068865,
-            "previousLine": 0,
-            "nextLine": -1841372924,
-            "columns": 0
-          }
-        },
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 850,
-          "endLine": 850,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp"
-        }
-      ],
-      "sastId": "CERT-MEM31-C, CERT-MEM51-CPP",
-      "favorite": false,
-      "projects": [],
-      "id": 271
+      "id": 267
     },
     {
       "code": "V2547",
@@ -7546,8 +7442,8 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 884,
-          "endLine": 884,
+          "line": 885,
+          "endLine": 885,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": -1236803009,
@@ -7560,7 +7456,7 @@
       "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
-      "id": 272
+      "id": 268
     },
     {
       "code": "V2015",
@@ -7571,8 +7467,8 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 892,
-          "endLine": 892,
+          "line": 893,
+          "endLine": 893,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 363079864,
@@ -7584,15 +7480,15 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 886,
-          "endLine": 886,
+          "line": 887,
+          "endLine": 887,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp"
         }
       ],
       "sastId": "CERT-DCL01-C",
       "favorite": false,
       "projects": [],
-      "id": 273
+      "id": 269
     },
     {
       "code": "V2563",
@@ -7603,8 +7499,8 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 900,
-          "endLine": 900,
+          "line": 901,
+          "endLine": 901,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": -391283293,
@@ -7617,7 +7513,32 @@
       "sastId": "MISRA-CPP-5-0-15",
       "favorite": false,
       "projects": [],
-      "id": 274
+      "id": 270
+    },
+    {
+      "code": "V2511",
+      "falseAlarm": false,
+      "level": 2,
+      "message": "The 'delete' operator should not be used.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 903,
+          "endLine": 903,
+          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
+          "navigation": {
+            "currentLine": 139393,
+            "previousLine": 0,
+            "nextLine": 1461068865,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-18-4-1",
+      "favorite": false,
+      "projects": [],
+      "id": 271
     },
     {
       "code": "V2511",
@@ -7628,12 +7549,12 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 902,
-          "endLine": 902,
+          "line": 904,
+          "endLine": 904,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 1461068865,
-            "previousLine": 0,
+            "previousLine": 139393,
             "nextLine": -1841372800,
             "columns": 0
           }
@@ -7642,40 +7563,7 @@
       "sastId": "MISRA-CPP-18-4-1",
       "favorite": false,
       "projects": [],
-      "id": 275
-    },
-    {
-      "code": "V773",
-      "cwe": 401,
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The 'table' pointer was assigned values twice without releasing the memory. A memory leak is possible.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 902,
-          "endLine": 902,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
-          "navigation": {
-            "currentLine": 1461068865,
-            "previousLine": 0,
-            "nextLine": -1841372800,
-            "columns": 0
-          }
-        },
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 850,
-          "endLine": 850,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp"
-        }
-      ],
-      "sastId": "CERT-MEM31-C, CERT-MEM51-CPP",
-      "favorite": false,
-      "projects": [],
-      "id": 276
+      "id": 272
     },
     {
       "code": "V2547",
@@ -7686,8 +7574,8 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 909,
-          "endLine": 909,
+          "line": 911,
+          "endLine": 911,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": -1236802761,
@@ -7700,7 +7588,7 @@
       "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
-      "id": 277
+      "id": 273
     },
     {
       "code": "V2015",
@@ -7711,8 +7599,8 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 917,
-          "endLine": 917,
+          "line": 919,
+          "endLine": 919,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 363079864,
@@ -7724,40 +7612,15 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 911,
-          "endLine": 911,
+          "line": 913,
+          "endLine": 913,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp"
         }
       ],
       "sastId": "CERT-DCL01-C",
       "favorite": false,
       "projects": [],
-      "id": 278
-    },
-    {
-      "code": "V2547",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The return value of non-void function 'add_row' should be used.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 921,
-          "endLine": 921,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
-          "navigation": {
-            "currentLine": 1821196140,
-            "previousLine": 125,
-            "nextLine": 19172713,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-0-1-7",
-      "favorite": false,
-      "projects": [],
-      "id": 279
+      "id": 274
     },
     {
       "code": "V2563",
@@ -7768,8 +7631,8 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 925,
-          "endLine": 925,
+          "line": 927,
+          "endLine": 927,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
             "currentLine": 664239841,
@@ -7782,40 +7645,56 @@
       "sastId": "MISRA-CPP-5-0-15",
       "favorite": false,
       "projects": [],
-      "id": 280
+      "id": 275
     },
     {
-      "code": "V773",
-      "cwe": 401,
+      "code": "V2511",
       "falseAlarm": false,
-      "level": 1,
-      "message": "The function was exited without releasing the 'table' pointer. A memory leak is possible.",
+      "level": 2,
+      "message": "The 'delete' operator should not be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 929,
-          "endLine": 929,
+          "line": 931,
+          "endLine": 931,
           "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
           "navigation": {
-            "currentLine": 5607,
+            "currentLine": 139393,
             "previousLine": 709801862,
-            "nextLine": 125,
+            "nextLine": 5607,
             "columns": 0
           }
-        },
+        }
+      ],
+      "sastId": "MISRA-CPP-18-4-1",
+      "favorite": false,
+      "projects": [],
+      "id": 276
+    },
+    {
+      "code": "V829",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "Lifetime of the heap-allocated variable 'table' is limited to the current function's scope. Consider allocating it on the stack instead.",
+      "positions": [
         {
           "column": 1,
           "endColumn": 1,
           "line": 850,
           "endLine": 850,
-          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp"
+          "file": "C:\\code\\opppo\\OOPRefactor\\OOP.cpp",
+          "navigation": {
+            "currentLine": -149523959,
+            "previousLine": 123,
+            "nextLine": 2139235810,
+            "columns": 0
+          }
         }
       ],
-      "sastId": "CERT-MEM31-C, CERT-MEM51-CPP",
       "favorite": false,
       "projects": [],
-      "id": 281
+      "id": 277
     },
     {
       "code": "V2575",
@@ -7840,7 +7719,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 282
+      "id": 278
     },
     {
       "code": "V2575",
@@ -7865,7 +7744,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 283
+      "id": 279
     },
     {
       "code": "V2575",
@@ -7890,7 +7769,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 284
+      "id": 280
     },
     {
       "code": "V2575",
@@ -7915,7 +7794,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 285
+      "id": 281
     },
     {
       "code": "V2575",
@@ -7940,7 +7819,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 286
+      "id": 282
     },
     {
       "code": "V2575",
@@ -7965,7 +7844,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 287
+      "id": 283
     },
     {
       "code": "V2575",
@@ -7990,7 +7869,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 288
+      "id": 284
     },
     {
       "code": "V2575",
@@ -8015,7 +7894,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 289
+      "id": 285
     },
     {
       "code": "V2575",
@@ -8040,7 +7919,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 290
+      "id": 286
     },
     {
       "code": "V2575",
@@ -8065,7 +7944,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 291
+      "id": 287
     },
     {
       "code": "V2575",
@@ -8090,7 +7969,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 292
+      "id": 288
     },
     {
       "code": "V2575",
@@ -8115,7 +7994,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 293
+      "id": 289
     },
     {
       "code": "V2575",
@@ -8140,7 +8019,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 294
+      "id": 290
     },
     {
       "code": "V2575",
@@ -8165,7 +8044,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 295
+      "id": 291
     },
     {
       "code": "V2575",
@@ -8190,7 +8069,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 296
+      "id": 292
     },
     {
       "code": "V2575",
@@ -8215,7 +8094,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 297
+      "id": 293
     },
     {
       "code": "V2575",
@@ -8240,7 +8119,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 298
+      "id": 294
     },
     {
       "code": "V2575",
@@ -8265,7 +8144,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 299
+      "id": 295
     },
     {
       "code": "V2575",
@@ -8290,7 +8169,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 300
+      "id": 296
     },
     {
       "code": "V2575",
@@ -8315,7 +8194,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 301
+      "id": 297
     },
     {
       "code": "V2575",
@@ -8340,7 +8219,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 302
+      "id": 298
     }
   ]
 }

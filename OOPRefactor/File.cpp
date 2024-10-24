@@ -9,10 +9,6 @@ File::File()
 	lastChangeTime = "00.00.0000/00:00";
 }
 
-File::~File()
-{
-}
-
 void File::setName(std::string in)
 {
 	name = in;
@@ -54,10 +50,6 @@ VideoFile::VideoFile()
 	resolution.x = 0;
 	resolution.y = 0;
 	framesPerSecond = 0;
-}
-
-VideoFile::~VideoFile()
-{
 }
 
 void VideoFile::setResolution(Resolution input)
@@ -110,10 +102,6 @@ AudioFile::AudioFile()
 	length = 0;
 }
 
-AudioFile::~AudioFile()
-{
-}
-
 void AudioFile::setBitrate(int input)
 {
 	bitrate = input;
@@ -161,10 +149,6 @@ Image::Image()
 	resolution.x = 0;
 	resolution.y = 0;
 	type = Other;
-}
-
-Image::~Image()
-{
 }
 
 void Image::setResolution(Resolution input)

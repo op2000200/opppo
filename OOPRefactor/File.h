@@ -26,7 +26,7 @@ class File
 {
 public:
 	File();
-	~File();
+	~File() = default;
 
 	void setName(std::string in);
 	std::string getName();
@@ -44,7 +44,7 @@ class VideoFile : public File
 {
 public:
 	VideoFile();
-	~VideoFile();
+	~VideoFile() = default;
 
 	void setResolution(Resolution input);
 	Resolution getResolution();
@@ -61,7 +61,7 @@ class AudioFile : public File
 {
 public:
 	AudioFile();
-	~AudioFile();
+	~AudioFile() = default;
 
 	void setBitrate(int input);
 	int getBitrate();
@@ -79,7 +79,7 @@ class Image : public File
 {
 public:
 	Image();
-	~Image();
+	~Image() = default;
 
 	void setResolution(Resolution input);
 	Resolution getResolution();
