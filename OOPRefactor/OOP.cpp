@@ -131,7 +131,6 @@ void loadTestElements()
 	example.videoFile.setFPS(24);
 	fileVector.push_back(example);
 
-	example.type = Video;
 	example.videoFile.setName("Two");
 	example.videoFile.setLCT("14.09.2014/9:05");
 	res.x = 1000;
@@ -140,7 +139,6 @@ void loadTestElements()
 	example.videoFile.setFPS(240);
 	fileVector.push_back(example);
 
-	example.type = Video;
 	example.videoFile.setName("One");
 	example.videoFile.setLCT("14.09.2024/9:05");
 	res.x = 100;
@@ -149,7 +147,6 @@ void loadTestElements()
 	example.videoFile.setFPS(24);
 	fileVector.push_back(example);
 
-	example.type = Video;
 	example.videoFile.setName("Test1");
 	example.videoFile.setLCT("13.07.2024/18:07");
 	res.x = 341256;
@@ -161,13 +158,10 @@ void loadTestElements()
 	example.type = Picture;
 	example.image.setName("Test1");
 	example.image.setLCT("13.07.2024/18:07");
-	res.x = 341256;
-	res.y = 543;
 	example.image.setResolution(res);
 	example.image.setImageType(PNG);
 	fileVector.push_back(example);
 
-	example.type = Picture;
 	example.image.setName("Test4");
 	example.image.setLCT("4.11.7549/18:07");
 	res.x = 75483;
@@ -176,20 +170,14 @@ void loadTestElements()
 	example.image.setImageType(JPG);
 	fileVector.push_back(example);
 
-	example.type = Picture;
 	example.image.setName("Test4");
 	example.image.setLCT("4.11.7549/18:07");
-	res.x = 75483;
-	res.y = 43;
 	example.image.setResolution(res);
 	example.image.setImageType(BMP);
 	fileVector.push_back(example);
 
-	example.type = Picture;
 	example.image.setName("Test4");
 	example.image.setLCT("4.11.7549/18:07");
-	res.x = 75483;
-	res.y = 43;
 	example.image.setResolution(res);
 	example.image.setImageType(Other);
 	fileVector.push_back(example);
@@ -201,7 +189,6 @@ void loadTestElements()
 	example.audioFile.setLength(10);
 	fileVector.push_back(example);
 
-	example.type = Audio;
 	example.audioFile.setName("Test2");
 	example.audioFile.setLCT("13.07.2024/18:07");
 	example.audioFile.setBitrate(1640);
