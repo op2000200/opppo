@@ -45,6 +45,7 @@ int main()
 	std::string input;
 	int functionNum;
 	loadTestElements();
+	system("cls");
 	std::cout << "Welcome.\n";
 	while (true)
 	{
